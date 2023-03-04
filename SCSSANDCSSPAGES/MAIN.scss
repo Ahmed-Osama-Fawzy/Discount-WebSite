@@ -1,0 +1,310 @@
+
+// start of  varuablies 
+$color1 : #101935;
+$color2 : #9AD4D6;
+$color3 : #F2FDFF;
+$color4 : #DBCBD8;
+$color5 : #564787;
+$color6 : #5FB4BF;
+$paddingTop : 150px ;
+// end of  varuablies
+
+// start of body
+body{
+    direction: rtl;
+    //cursor: pointer;
+}
+a{
+    color: $color1 !important;
+    text-decoration: none !important;
+    transition:2s;
+}
+a:hover{
+    color: $color5 !important;
+}
+//end of body 
+// start of navbar
+
+// end of navbar
+// start of back top button
+div .backtop{
+    background-color: $color1;
+    width: 42px;
+    height: 42px;
+    line-height: 100%;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 10;
+    border-radius: 100%;
+    color:$color3;
+}
+div .backtop i{
+    transition: 2s;
+}
+div .backtop i:hover{
+    transform:rotate(360deg);
+    color: $color5;
+}
+// end of back top button
+
+// start of footer 
+footer{
+    background-color: $color6;
+    direction: ltr;
+    color: $color1;
+}
+footer .container{
+    padding: 20px ;
+}
+footer .container .row .col{
+    padding: 30px;
+    transition: 1s;
+}
+footer .container .row .col div h3{
+    text-align: center;
+}
+footer .container .row .col div img{
+    width: 75%;
+    height: 35%;
+    border-radius: 25%;
+    margin-left: 14%;
+}
+footer .container .row .col div i{
+    display: inline-block;
+    transition: 1s;
+}
+footer .container .row .col div p{
+    display: inline-block;
+}
+footer .container .row .col div p:hover{
+    color: $color3 !important;
+}
+footer .container .row .col div i:hover{
+    transform: rotate(360deg);
+    color: $color3;
+}
+// end of footer 
+
+// start of home page
+.HOME{
+    background-color: $color4;
+}
+.HOME .container .row{
+    padding-top: $paddingTop;
+}
+.HOME .container .row .col img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.HOME .container .row .col .weare{
+    text-align: center;
+    padding: 10px;
+    background-color: $color2;
+}
+.HOME .container .row .col .weare h1{
+    padding: 20px;
+}
+.HOME .container .row .col .weare p{
+    font-size: x-large;
+}
+.HOME .container .row .col .weare ul{
+    list-style-type: none;
+}
+.HOME .container .row .col .weare ul div li{
+    line-height: 35px;
+    font-size: x-large;
+    display: inline;
+}
+.HOME .container .row .col .weare ul div i{
+    display: inline-block;
+    margin-left: 3px;
+    transition: 1s;
+}
+.HOME .container .row .col .weare ul div i:hover{
+    transform: translatex(-4px);
+}
+.HOME .container .row .col .chooseus{
+    text-align: center;
+    background-color: $color3;
+}
+.HOME .container .row .col .chooseus h1{
+    padding: 20px;
+}
+.HOME .container .row .col .chooseus div{
+    padding: 20px;
+}
+.HOME .container .row .col .chooseus div h3{
+    display: inline;
+    font-size: xx-large;
+}
+.HOME .container .row .col .chooseus div p{
+    color: $color1;
+}
+.HOME .container .row .col .chooseus div i{
+    display: inline;
+    color: $color5;
+}
+.HOME .container .row .col video{
+    width: 90%;
+    padding:5%;
+    height: 65%;
+    display: inline-block ;
+}
+.HOME .container .row .col span{
+    padding: 35px;
+    display: inline-block;
+    direction: ltr;
+}
+.HOME .container .row .col span p{
+    color: $color1;
+}
+.HOME .container .row .col span h2{
+    display: inline;
+}
+.HOME .container .row .startwork{
+    width: 100%;
+    text-align: center;
+    padding:20px ;
+    background-color: $color2;
+}
+.HOME .container .row .startwork .kindsbuttons button{
+    width: 200px;
+    line-height: 300%;
+    margin: 20px;
+    font-size: x-large;
+    background-color: $color2;
+    transition: 1.5s;
+    border: none;
+    border-radius: 20px;
+}
+.HOME .container .row .startwork .kindsbuttons button:hover{
+    background-color: $color5;
+}
+.HOME .container .row .cataloges{
+    width: 100%;
+    text-align: center;
+    padding:20px ;
+    background-color: $color3;
+}
+.HOME .container .row .cataloges .kindscataloges button{
+    width: 200px;
+    line-height: 300%;
+    margin: 20px;
+    font-size: x-large;
+    background-color: $color2;
+    transition: 1.5s;
+    border: none;
+    border-radius: 20px;
+}
+.HOME .container .row .cataloges .kindscataloges button:hover{
+    background-color: $color5;
+}
+.HOME .container .row .ourcleints{
+    width: 100%;
+    text-align: center;
+    padding:20px ;
+    background-color: $color2;
+}
+.HOME .container .row .ourcleints #clients div{
+    float: left;
+    width: 98%;
+    overflow-x: hidden;
+    text-align: center;
+    background-color: $color3;
+    padding: 20px;
+    border-radius: 20px;
+    display: none;
+}
+.HOME .container .row .ourcleints #clients .active{
+    display: block;
+}
+.HOME .container .row h1{
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+.HOME .container .row .col .founder{
+    padding: 20px;
+    text-align: center;
+    height:100%;
+    width: 100%;
+    background-color: $color3;
+}
+.HOME .container .row .col .founder img{
+    width:150px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 100%;
+}
+.HOME .container .row .col .founder div{
+    margin: 0;
+    padding: 10px;
+}
+.HOME .container .row .col .founder div span{
+    display: inline;
+}
+.HOME .container .row .col .founder div i{
+    display: inline;
+}
+.HOME .container .row .col .counter{
+    text-align: center;
+}
+.HOME .container .row .col .counter span{
+    font-size: large;
+    display: block;
+    padding: 10px;
+}
+.HOME .container .row .col .counter i{
+    display: block;
+    padding: 10px;
+    transition: 3s;
+    color:$color3;
+}
+.HOME .container .row .col .counter i:hover{
+    transform:rotate(360deg);
+    color:$color5;
+}
+// end of home page
+
+//start of contact page
+.container .row .col .contact{
+    padding: 50px;
+    direction: rtl;
+    text-align: right;
+    font-size: large;
+
+}
+.container .row .col .contact h3{
+    text-align: center;
+}
+.container .row .col .contact form input{
+    padding: 2%;
+    border: none;
+    margin: 4%;
+    background-color: $color2;
+    border-radius: 10px;
+    width: 40%;
+}
+.container .row .col .contact form textarea{
+    width: 100%;
+    height: 300px;
+    background-color: $color2;
+    border: none;
+    border-radius: 30px;
+    padding: 30px;
+}
+.container .row .col .contact button{
+    width: 80%;
+    padding: 10px;
+    transition: 2s;
+    margin: 7% ;
+    border-radius: 30px;
+    background-color: $color2;
+    border: none;
+}
+.container .row .col .contact button:hover{
+    background-color: $color5;
+}
+// end of contact page
